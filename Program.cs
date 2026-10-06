@@ -4,7 +4,13 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            int suma = Add(2, 1);
+            Console.WriteLine($"la suma es: {suma}");
+        }
+
+        public static int Add(int x, int y)
+        {
+            return x + y;
         }
     }
 }

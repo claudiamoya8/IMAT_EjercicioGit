@@ -4,15 +4,13 @@
     {
         static void Main(string[] args)
         {
-            int id = 202401391
-            int suma = Add(id[0], id[-1])
+            int suma = Add(2, 1);
             Console.WriteLine($"la suma es: {suma}");
-
         }
 
-        public static int Add(int x, int y) 
+        public static int Add(int x, int y)
         {
-            return x + y 
+            return x + y;
         }
     }
 }

@@ -4,8 +4,8 @@
     {
         static void Main(string[] args)
         {
-            int multiplicacion = Multiply(2, 1);
-            Console.WriteLine($"la multiplicación es: {multiplicacion}");
+            int division = Divide(2, 1);
+            Console.WriteLine($"la división es: {division}");
         }
 
         public static int Add(int x, int y)
@@ -16,6 +16,11 @@
         public static int Multiply(int x, int y)
         {
             return (x * y);
+        }
+
+        public static int Divide(int x, int y)
+        {
+            return x / y;
         }
 
     }

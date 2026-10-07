@@ -32,7 +32,7 @@
         {
             if (y == 0)
             {
-                Console.WriteLine("Error: no se puede dividir entre 0");
+                Console.WriteLine($"Error: no se puede dividir {x} entre {y}");    
                 return 0;
             }
             return x / y;
